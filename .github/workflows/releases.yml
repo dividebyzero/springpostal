@@ -30,7 +30,7 @@ jobs:
     
       #build stuff 
       - name: Build with Gradle
-        run: ./gradlew jar
+        run: ./lib/gradlew jar
       #upload-artifact-as-is 
       # our jars are named properly with version, so just upload those
       - uses: kittaakos/upload-artifact-as-is@v0
